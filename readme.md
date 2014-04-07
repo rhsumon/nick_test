@@ -1,21 +1,39 @@
-## Laravel PHP Framework
+## Test Project with Laravel PHP Framework and Mongodb
 
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/version.png)](https://packagist.org/packages/laravel/framework) [![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.png)](https://packagist.org/packages/laravel/framework) [![Build Status](https://travis-ci.org/laravel/framework.png)](https://travis-ci.org/laravel/framework) [![License](https://poser.pugx.org/laravel/framework/license.png)](https://packagist.org/packages/laravel/framework) 
+This is the test project for a simple CRUD operation of a data like follows:
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+{ "_id" : ObjectId("52733912a3e4852b01b7acd9"), "uid" : 5650, "networks" : [ { "nid" : 1, "n_name" : "home", "n_ip" : "1.2.3.4", "n_status" : 1 }, { "nid" : 3, "n_name" : "work", "n_ip" : "8.8.8.8", "n_status" : 0 } ], "hostnames" : [ { "hostname" : "ip.unotelly.com", "block" : 1 }, { "hostname" : "nba.com", "block" : 0 }, { "hostname" : "facebook.com", "block" : 1 } ] }
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+We are using Laravel Framework and Mongodb for the project.
 
-## Official Documentation
+Step to run successfully:
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
+1. Run Mongodb with default connection
+2. Create a collection named "network_db"
+3. Run apache
+4. open terminal and go to the project folder 
+5. Run the project with the command/similer like this "php artisan serve"
+6. Check the url in browser
 
-### Contributing To Laravel
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
+How it works:
 
-### License
+1. You can find the users listing at first
+2. Here you can see the add new user link at top
+3. Add one or more user by entering the uid
+4. Then go to the Network tab from top
+5. Here you will see the Users and the associated networks and hostnames
+6. Add one or more network or hostnames from top link
+7. Edit and delele links should in the listing for networks and hostnames
+8. Edit and delete option should be there for users also
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+Improvements:
+
+1. users.uid and associated networks.nid should be unique
+2. should have the id for hostnames
+3. filtering the view instead of showing all items there
+4. Need to improve of quering the data
+
+-MD RASHEDUL ISLAM SUMON
