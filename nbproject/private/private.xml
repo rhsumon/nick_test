@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/routes.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/composer.json</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/config/app.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/config/database.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/database/migrations/2014_04_06_172257_create_networks_table.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/database/migrations/2014_04_06_181545_create_users_table.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/database/migrations/2014_04_06_181745_create_hostnames_table.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/models/User.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/models/Network.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/models/Hostname.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/controllers/NetworkController.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/views/networks/index.blade.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/views/networks/create.blade.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/views/networks/show.blade.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/views/networks/edit.blade.php</file>
+        <file>file:/F:/Wittywork/xampp/htdocs/networks/app/controllers/UserController.php</file>
+    </open-files>
+</project-private>
